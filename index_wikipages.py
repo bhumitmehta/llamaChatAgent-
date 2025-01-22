@@ -13,6 +13,7 @@ class WikiPageList(BaseModel):
 
 
 def wikipage_list(query):
+
     openai.api_key = get_apikey()
 
     prompt_template_str = """
